@@ -288,5 +288,14 @@ body {
     "sect3"
     "footer";
   }
-  .main-button {padding: 0;}
-}
+  .hero {grid-area: main;
+    /* box-shadow: var(--bs-primary); */
+    gap: 0.75em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.25fr 0.25fr;
+    grid-template-areas: 
+    "img"
+    "h1"
+    "p";
+  }
